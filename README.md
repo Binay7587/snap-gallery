@@ -3,7 +3,7 @@
 ![](./docs/snap-gallery.png)
 
 ## Summary
-SnapGallery is a photo gallery that is built using React Hooks, React Router and Context API. The images in the gallery are obtained through the Unsplash API and retrieved using Axios.
+SnapGallery is a photo gallery that is built using React Hooks (useEffect), React Router and Context API. The images in the gallery are obtained through the Unsplash API and retrieved using Axios.
 
 ## Motivation
 
