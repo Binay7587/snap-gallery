@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Pacifico&family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin: 30px 0;
+  font-family: "Pacifico", "Josefin Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.image-list .image {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.image-list .image,
+.image-list img {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  margin: 0 20px 20px 0;
+  object-fit: cover;
+}
+
+.image-list img {
+  transition: 0.3s ease-in-out;
+}
+
+.image-list img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+
+  transform: scale(1.3);
+}
