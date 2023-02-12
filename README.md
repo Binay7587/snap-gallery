@@ -1,19 +1,19 @@
-# Todo List App
-[Demo of Todo App](https://todo-binay7587.vercel.app)
-![](./docs/todo-app.png)
+# SNAP GALLERY
+[Demo of Snap Gallery](https://snap-gallery-binay7587.vercel.app)
+![](./docs/snap-gallery.png)
 
 ## Summary
-A simple todo list app created with React.js, allowing users to keep track of tasks and check them off as completed. The app features a user-friendly interface for adding, deleting and marking tasks as done.
+SnapGallery is a photo gallery that is built using React Hooks, React Router and Context API. The images in the gallery are obtained through the Unsplash API and retrieved using Axios.
 
 ## Motivation
 
-The purpose of this project was to get familiar with React Hooks(useState), LocalStorage and ReactToastify.
+The purpose of this project was to get familiar with React Hooks, React Router and Context API.
 
 ## Setup Instructions
 
 First clone this repository.
 ```bash
-$ git clone https://github.com/Binay7587/todo-list
+$ git clone https://github.com/Binay7587/snap-gallery
 ```
 
 Install dependencies. Make sure you have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
@@ -29,9 +29,8 @@ $ npm start # or yarn start
 <!-- FURTHER ENHANCEMENT -->
 ## Further Enhancement
 Some of the future enhancement for the application are listed below.
-1. Authentication.
-2. Add an option to edit the todo.
-3. Save todo in database. 
+1. Bla bla bla
+2. Bla bla bla
 
 <!-- BUILT WITH -->
 ## Built With
@@ -48,13 +47,13 @@ Everyone is welcomed to contribute to this project. You can contribute either by
 
 Binaya Karki - [@binay7587](https://www.linkedin.com/in/binay7587) - me@binayakarki.com.np
 
-Repository Link: [https://github.com/Binay7587/todo-list](https://github.com/Binay7587/todo-list)
+Repository Link: [https://github.com/Binay7587/snap-gallery](https://github.com/Binay7587/snap-gallery)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [https://github.com/Binay7587/todo-list/blob/master/LICENSE](https://github.com/Binay7587/todo-list/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [https://github.com/Binay7587/snap-gallery/blob/master/LICENSE](https://github.com/Binay7587/snap-gallery/blob/master/LICENSE) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
