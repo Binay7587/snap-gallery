@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { UNSPLASH_ACCESS_KEY } from './config/constants';
+import { FaCamera } from 'react-icons/fa';
 import './App.css';
 
 const App = () => {
@@ -43,6 +44,7 @@ const App = () => {
                     return (
                         <figure className="image" key={index}>
                             <img src={image.cover_photo.urls.regular} alt={image.cover_photo.alt_description} />
+                            <div className="overlay"><FaCamera style={{ marginBottom: "-2px" }} /> {image.cover_photo.user.name}</div>
                         </figure>
                     )
                 })}
