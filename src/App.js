@@ -42,7 +42,7 @@ const App = () => {
                 {imageList.length === 0 && <p className="no-image">No Images Found</p>}
                 {imageList.length > 0 && imageList.map((image, index) => {
                     return (
-                        <figure className="image" key={index} onClick>
+                        <figure className="image" key={index}>
                             <a href={image.cover_photo.urls.regular} target="_blank">
                                 <img src={image.cover_photo.urls.regular} alt={image.cover_photo.alt_description} />
                             </a>
