@@ -7,12 +7,17 @@
   font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
-.heading {
+.heading,
+.heading span {
   text-align: center;
   margin: 30px 0 10px 0;
   font-family: "Lobster", "Josefin Sans", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 4rem;
+}
+
+.heading span {
+  color: #fc636e;
 }
 
 .search-bar {
@@ -30,18 +35,25 @@
   font-size: 1.2rem;
 }
 
+.search-bar input:focus {
+  outline: none;
+  border: 2px solid #fc636e;
+}
+
 .search-bar button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #ccc;
+  background-color: black;
+  color: white;
   font-size: 1.2rem;
   margin-left: 10px;
   cursor: pointer;
 }
 
 .search-bar button:hover {
-  background-color: #aaa;
+  background-color: #fc636e;
+  color: white;
 }
 
 .sub-heading {

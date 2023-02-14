@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <div>
-            <h1 className="heading">Snap Gallery</h1>
+            <h1 className="heading">Snap <span>Gallery</span></h1>
             <p className="sub-heading">Search for your favourite images</p>
             <div className='search-bar'>
                 <input type="text" placeholder="Search Images"
