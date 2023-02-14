@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <div>
-            <h1 className="heading">Snap Gallery</h1>
+            <h1 className="heading">Snap <span>Gallery</span></h1>
             <p className="sub-heading">Search for your favourite images</p>
             <div className='search-bar'>
                 <input type="text" placeholder="Search Images"
@@ -42,11 +42,11 @@ const App = () => {
                 {imageList.length === 0 && <p className="no-image">No Images Found</p>}
                 {imageList.length > 0 && imageList.map((image, index) => {
                     return (
-                        <figure className="image" key={index} onClick>
-                            <a href={image.cover_photo.urls.regular} target="_blank">
-                                <img src={image.cover_photo.urls.regular} alt={image.cover_photo.alt_description} />
+                        <figure className="image" key={index}>
+                            <a href={image.cover_photo ? image.cover_photo.urls.regular : "./No image.png"} target="_blank" rel='noreferrer'>
+                                <img src={image.cover_photo ? image.cover_photo.urls.regular : './No image.png'} alt={image.cover_photo ? image.cover_photo.alt_description : "Anonymous"} />
                             </a>
-                            <div className="overlay"><FaCamera style={{ marginBottom: "-2px" }} /> {image.cover_photo.user.name}</div>
+                            <div className="overlay"><FaCamera style={{ marginBottom: "-2px" }} /> {image.cover_photo ? image.cover_photo.user.name : "Anonymous"}</div>
                         </figure>
                     )
                 })}
