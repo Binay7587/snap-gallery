@@ -43,10 +43,10 @@ const App = () => {
                 {imageList.length > 0 && imageList.map((image, index) => {
                     return (
                         <figure className="image" key={index}>
-                            <a href={image.cover_photo.urls.regular} target="_blank">
-                                <img src={image.cover_photo.urls.regular} alt={image.cover_photo.alt_description} />
+                            <a href={image.cover_photo ? image.cover_photo.urls.regular : "./No image.png"} target="_blank" rel='noreferrer'>
+                                <img src={image.cover_photo ? image.cover_photo.urls.regular : './No image.png'} alt={image.cover_photo ? image.cover_photo.alt_description : "Anonymous"} />
                             </a>
-                            <div className="overlay"><FaCamera style={{ marginBottom: "-2px" }} /> {image.cover_photo.user.name}</div>
+                            <div className="overlay"><FaCamera style={{ marginBottom: "-2px" }} /> {image.cover_photo ? image.cover_photo.user.name : "Anonymous"}</div>
                         </figure>
                     )
                 })}
