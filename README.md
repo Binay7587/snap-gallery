@@ -42,6 +42,8 @@ Some of the future enhancement for the application are listed below.
 
 Everyone is welcomed to contribute to this project. You can contribute either by submitting bugs or suggesting improvements by opening an issue on GitHub. Please see the [CONTRIBUTING](CONTRIBUTING.md) guidelines for more information.
 
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/binay7587)
+
 <!-- CONTACT -->
 ## Contact
 
